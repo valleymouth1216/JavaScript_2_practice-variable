@@ -64,3 +64,17 @@
 
     //yはfooという関数の中でvarによって宣言された関数スコープになり
       //この場合、関数の外からyを参照しようとしても有効範囲外になりエラーになる
+
+
+//letのスコープ
+ //letではブロックスコープ(ローカルスコープ)の変数を宣言することができる
+
+ // function foo() {
+ //  let x = "webcamp"
+ // {
+ // let y = "hello webcamp"
+ // }
+ // console.log(x)
+ // console.log(y)
+ // }
+ // foo()
