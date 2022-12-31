@@ -38,7 +38,29 @@
 
 
 // constによる再代入
-const nickname = "taro"
-console.log(nickname)
-nickname = "jiro"
-console.log(nickname)
+ //lconst nickname = "taro"
+ //lconsole.log(nickname)
+ //lnickname = "jiro"
+ //lconsole.log(nickname)
+   //エラーになる　constでは再宣言と再代入が出来ない
+
+
+
+//スコープ(有効範囲)
+
+
+//varのスコープ 関数スコープ(ローカルスコープ)、グローバルスコープの変数を宣言できる
+ //グローバルスコープ・・・どこからでも参照できる変数
+ //関数スコープ　　　・・・関数の中でvarによって宣言された変数
+  //var str = "webcamp" //グローバルスコープ
+
+  //function foo() {
+   // console.log(str)
+    //var y = "hello" //関数スコープ
+  //}
+
+  //foo()
+  //console.log(y)
+
+    //yはfooという関数の中でvarによって宣言された関数スコープになり
+      //この場合、関数の外からyを参照しようとしても有効範囲外になりエラーになる
