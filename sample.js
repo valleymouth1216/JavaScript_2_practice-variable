@@ -98,4 +98,21 @@
 //  console.log(str)
 //}
 //
+// foo()
+
+// ↓は↑と同じ
+//var str = "webcamp"
+//
+//function foo() {
+//  var str
+//  console.log(str)
+//  str = "dmm webcamp"
+//  console.log(str)
+//}
 //foo()
+
+
+//varは使わないconst or letを使う
+//for (let i = 0; i < 10; i++) {
+//  console.log(i);
+//}
