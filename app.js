@@ -44,3 +44,11 @@
 //    return addStr;
 //  }
 //アラートウィンドウに「Hello WebCamp」の文字が表示される
+
+
+//複数の関数で表示できるようにする
+
+//let promptStr = prompt('何か好きな文字を入力してください。');
+//alert(promptStr);
+//prooptStrの中に文字を入力できる。
+//入力された文字列はprompt()関数の戻り値として変数「promptStr」に格納され、アラートウィンドウ上に表示される
