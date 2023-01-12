@@ -52,3 +52,9 @@
 //alert(promptStr);
 //prooptStrの中に文字を入力できる。
 //入力された文字列はprompt()関数の戻り値として変数「promptStr」に格納され、アラートウィンドウ上に表示される
+
+
+//複数の関数を定義する
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
+
+alert('あなたの選んだ手は' + user_hand + 'です。');
