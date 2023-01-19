@@ -62,6 +62,8 @@
 
 // function getJShand(){
 //   let js_hand_num = Math.floor( Math.random() * 3 );
+//   乱数を生成する関数を設定。これによりグー・チョキ・パーがランダムに表示されるようにする
+//   Math.floor( Math.random() * 3 )・・・0～2までのランダムな整数値を生成する
 //
 //   if(js_hand_num == 0){
 //     js_hand = "グー";
