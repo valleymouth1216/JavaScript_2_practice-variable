@@ -1,9 +1,7 @@
-$(function(){
-  $('.box1').css({
-    'background-color': '#0000FF',
-    'height': '100px'
-  });
-});
+//$(document).ready(function () {
+//  $('body').html('<h1>Hello jQuery!!</h1>');
+//});
+
 //$( セレクタ ).メソッド ( パラメータ );
 //セレクタ……body
 //メソッド……html
@@ -29,3 +27,12 @@ $(function(){
 //セレクタ・・・操作の対象になる部分(htmlのbody)
 //メソッド・・・何を行うのかを記述(html)
 //パラメータ・・・メソッドにパラメータを指定すると、その内容に書き換えられる('<h1>Hello jQuery!!</h1>')
+
+
+
+(function(){
+  $('.box1').css({
+    'background-color': '#0000FF',
+    'height': '100px'
+  });
+});
