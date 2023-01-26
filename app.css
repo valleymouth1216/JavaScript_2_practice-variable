@@ -1,5 +1,5 @@
 .box1 {
-  display: none;
+  display: none;  /*上から下へスライドさせる*/
   background-color: #FF0000; /* 赤*/
   height: 200px;
   width: 200px;

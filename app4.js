@@ -52,5 +52,7 @@
 //↓
 
 $(function(){
-  $('.box1').slideDown();
+  $('.box1').slideDown(); //上から下へスライドさせる
+  //jQueryは、HTMLがすべて読み込まれてから動作するように設定しなければならない
+  //このため、box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加する
 });
