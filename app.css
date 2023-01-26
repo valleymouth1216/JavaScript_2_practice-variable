@@ -1,5 +1,6 @@
 .box1 {
-  background-color: #FF0000;
+  display: none;
+  background-color: #FF0000; /* 赤*/
   height: 200px;
   width: 200px;
 }
