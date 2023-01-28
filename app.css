@@ -1,6 +1,6 @@
 .box1 {
   /*display: none;  */ /*上から下へスライドさせる　下から上へスライドさせる場合は不要*/
-  display: none;
+  /*display: none;  */ /*非表示の要素をjQueryで表示 hide()ときいらない*/
   background-color: #FF0000; /* 赤*/
   height: 200px;
   width: 200px;
