@@ -52,7 +52,13 @@
 //↓
 
 $(function(){
-  $('.box1').slideDown(); //上から下へスライドさせる
+  //$('.box1').slideDown();
+  //上から下へスライドさせる
   //jQueryは、HTMLがすべて読み込まれてから動作するように設定しなければならない
   //このため、box1が最初は非表示になるように、app.cssファイルにdisplay: none;を追加する
+  //$('.box1').slideUp();
+  //下から上へスライドさせる
+  //このため、box1が表示されている要素を隠すアニメーションになり最初は非表示になるためdisplay: none;が不要
+  $('.box1').show();
+  $('.box1').css({'background-color': '#0000FF'});
 });
