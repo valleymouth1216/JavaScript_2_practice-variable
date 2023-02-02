@@ -1,14 +1,40 @@
+
+/*.box1 {  */
+/*  /*display: none;  */ /*上から下へスライドさせる　下から上へスライドさせる場合は不要*/
+/*  /*display: none;  */ /*非表示の要素をjQueryで表示 hide()ときいらない*/
+/*  background-color: #FF0000; /* 赤*/
+/*  height: 200px;  */
+/*  width: 200px;   */
+/*}                 */
+
+
+
+/*.box1-ext {  */
+/*  border: 10px solid black;  */
+/*}  */
+/*.box1-extが、マウスオーバー時に適用されるCSS（class）*/
+
+
+/*7章*/
 .box1 {
-  /*display: none;  */ /*上から下へスライドさせる　下から上へスライドさせる場合は不要*/
-  /*display: none;  */ /*非表示の要素をjQueryで表示 hide()ときいらない*/
-  background-color: #FF0000; /* 赤*/
+  background-color: #FFFFFF;
   height: 200px;
   width: 200px;
+  float: left;
 }
 
-
-
-.box1-ext {
-  border: 10px solid black;
+.bg1 {
+  background-color: #FFAAAA;
 }
-/*.box1-extが、マウスオーバー時に適用されるCSS（class）*/
+
+.bg2 {
+  background-color: #FFBBBB;
+}
+
+.bg3 {
+  background-color: #FFCCCC;
+}
+
+.bg4 {
+  background-color: #FFDDDD;
+}
