@@ -20,8 +20,19 @@
 
 //this(クリックされた要素) イベントが発生した要素のみ変化させたいときに使う
 //2～18行目のコードをまとめる書き方
+//$(function(){
+//  $('.box1').on('click', function(){
+//    $(this).slideUp();
+//  });
+//});
+
+//box1クラスの正方形がクリックされたとき、this（クリックされた要素）のみslideUpさせる という設定
+
+
+
+//children・・・HTML要素直下のすべての子要素を取得するときに使う
 $(function(){
-  $('.box1').on('click', function(){
-    $(this).slideUp();
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
 });
