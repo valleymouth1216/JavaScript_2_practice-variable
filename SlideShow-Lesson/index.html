@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- ↑二つ Swiper（スワイパー）をCDNで導入するためのコード-->
+    <!-- Swiper（スワイパー）は、スライドショーを簡単に作成できるJavaScriptのプラグイン-->
     <link rel="stylesheet" href="style.css" />
     <title>Swiper導入</title>
   </head>
   <body>
     <div class="swiper">
+      <!-- swiper（スライダショー箇所全体を内包する要素） -->
       <div class="swiper-wrapper">
+         <!-- swiper-wrapper（スライド部を内包する要素） -->
         <div class="swiper-slide">
+          <!-- swiper-slide（各スライドを入れる要素） -->
           <img src="img/nature-1.jpg" alt="">
         </div>
         <div class="swiper-slide">
@@ -32,6 +37,7 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
        <script src="script.js"></script>
+       　<!-- avaScriptにスライドの機能を書いているので必須-->
     </div>
   </body>
 </html>
