@@ -10,14 +10,15 @@
     <h1>11章【タブメニューを作ってみよう】</h1>
 
     <div class="wrap">
-      <ul id="tab-menu">
+      <ul id="tab-menu"><!-- タブ（a要素）をクリックすると、それぞれのコンテンツが表示される-->
         <li><a href="#tab1" class="active">TAB1</a></li>
+        <!-- TAB1にはclass="active"を追加して、最初に表示したときにTAB1の内容が表示される-->
         <li><a href="#tab2" class="">TAB2</a></li>
         <li><a href="#tab3" class="">TAB3</a></li>
         <li><a href="#tab4" class="">TAB4</a></li>
       </ul>
 
-      <div id="tab-contents">
+      <div id="tab-contents"><!-- タブをクリックしたときの表示内容-->
         <div id="tab1" class="tab">
           <p>TAB1のテキストが入ります。</p>
         </div>
